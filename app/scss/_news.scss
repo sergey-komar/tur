@@ -1,0 +1,119 @@
+.breadcrumbs__list {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.breadcrumbs__list li {
+    position: relative;
+}
+
+.breadcrumbs__list-active {
+    color: rgb(250, 91, 3);
+}
+
+.breadcrumbs__list li:nth-child(2)::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    top: 7px;
+    left: -15px;
+    background: url('../images/slug-breadcrumbs.svg') no-repeat;
+}
+
+
+.news-block__inner {
+    display: flex;
+    gap: 8rem;
+}
+
+.news-sidebar {
+    width: 25%;
+}
+
+.news-sidebar__inner {
+    padding: 5rem 4rem;
+    border-radius: 30px;
+    background: rgb(250, 250, 250);
+}
+
+.news-sidebar__title {
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    color: rgb(19, 19, 19);
+}
+
+.news-sidebar__link {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news-sidebar__link:hover {
+    color: rgb(250, 91, 3);
+}
+
+.news-content {
+    width: 75%;
+}
+
+.news-content__title {
+    margin-bottom: 4rem;
+    font-size: 4.4rem;
+    color: rgb(19, 19, 19);
+}
+
+.news-content__item {
+    margin-bottom: 4rem;
+    display: flex;
+    gap: 4rem;
+    padding: 3rem 2rem;
+    border-radius: 30px;
+    background: rgb(250, 250, 250);
+}
+
+.news-content__item-img {
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.news-content__box-title {
+    margin-bottom: 2rem;
+    font-family: 'Gilroy';
+    font-weight: 700;
+}
+
+.news-content__box-date {
+    margin-bottom: 2rem;
+    font-family: 'Gilroy';
+    font-weight: 500;
+}
+
+.news-content__box-text {
+    font-weight: 400;
+}
+
+.pagination__list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.pagination__list li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: rgb(224, 224, 224);
+}
+
+.pagination__list li a.pagination__list--active {
+    color: #fff;
+    background: rgb(77, 172, 184);
+}

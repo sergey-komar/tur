@@ -1,0 +1,105 @@
+html,
+body {
+	height: 100%;
+	/*sticky footer*/
+	display: flex;
+	/*sticky footer*/
+	flex-direction: column;
+	/*sticky footer*/
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: 'gothampro';
+	font-size: 1.8rem;
+	line-height: 3rem;
+	font-weight: 700;
+	color: #000;
+
+}
+
+html {
+	font-size: 10px;
+}
+
+body>* {
+	flex-shrink: 0;
+	/*sticky footer*/
+}
+
+.footer {
+	margin-top: auto;
+	/*sticky footer*/
+}
+
+button {
+	cursor: pointer;
+}
+
+.container {
+	max-width: 160rem;
+	margin: 0 auto;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.container-header {
+	max-width: 170rem;
+	margin: 0 auto;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.btn--green {
+	padding: 0;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 60px;
+	background: rgb(77, 172, 184);
+	transition: all .4s ease-in;
+}
+
+.btn--orange {
+	display: block;
+	padding: 0;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 30px;
+	background: rgb(250, 91, 3);
+	transition: all .4s ease-in;
+}
+
+.btn--green:hover {
+	transition: all .4s ease-in;
+	background: rgb(250, 91, 3);
+}
+
+.btn--orange:hover {
+	background: rgb(77, 172, 184);
+	transition: all .4s ease-in;
+}
+
+a {
+	transition: all .4s ease-in;
+}
+
+a:hover {
+	transition: all .4s ease-in;
+}
+
+.title {
+	margin-bottom: 2rem;
+	font-size: 4.4rem;
+	text-align: center;
+}
+
+.subtitle {
+	margin-bottom: 11rem;
+	font-size: 3.6rem;
+	font-weight: 400;
+	text-align: center;
+}
