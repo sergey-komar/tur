@@ -235,6 +235,7 @@
 .reviews-block__item-title,
 .news-block__item-title {
     margin-bottom: 1rem;
+    font-size: 18px;
     font-family: 'Gilroy';
     font-weight: 700;
 }
@@ -287,7 +288,12 @@
 .recommend-block__item {
     margin-bottom: 6rem;
     display: flex;
+    // flex-wrap: wrap;
     gap: 3rem;
+}
+
+.recommend-block__item-img {
+    object-fit: cover;
 }
 
 .recommend-block__content-title {
@@ -304,6 +310,7 @@
 }
 
 .recommend-block__content-text {
+    width: 100%;
     margin-bottom: 1rem;
     font-size: 14px;
     font-family: 'Gilroy';
@@ -313,6 +320,7 @@
 .recommend-block__center {
     margin-bottom: 4rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem;
 }
